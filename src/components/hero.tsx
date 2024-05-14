@@ -16,12 +16,8 @@ export default function Hero() {
                 view so you know where to save.
               </div>
             </div>
-            <div className="w-3/4 h-60 md:h-96 my-4  rounded-lg overflow-hidden">
-              <Image
-                src="https://source.unsplash.com/500x400/?expenses,money,savemoney"
-                className="h-full w-full"
-                alt=""
-              />
+            <div>
+              <Image src="/hero1.jpg" alt="" width={500} height={600} />
             </div>
           </div>
         </div>
