@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <>
@@ -15,7 +17,7 @@ export default function Hero() {
               </div>
             </div>
             <div className="w-3/4 h-60 md:h-96 my-4  rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="https://source.unsplash.com/500x400/?expenses,money,savemoney"
                 className="h-full w-full"
                 alt=""
